@@ -1,4 +1,5 @@
 'use strict';
+exports.__esModule = true;
 var core_1 = require("@angular/core");
 var EventSyncEmitter_1 = require("./EventSyncEmitter");
 var Event = (function () {
@@ -58,3 +59,4 @@ var Event = (function () {
 Event.emitters = window['eventQueue'] ? window['eventQueue'] : (window['eventQueue '] = {});
 Event.emittersSync = window['eventSyncQueue'] ? window['eventSyncQueue'] : (window['eventSyncQueue '] = {});
 exports.Event = Event;
+//# sourceMappingURL=Event.js.map

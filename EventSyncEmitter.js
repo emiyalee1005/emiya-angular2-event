@@ -1,4 +1,5 @@
 'use strict';
+exports.__esModule = true;
 var EventSyncEmitter = (function () {
     function EventSyncEmitter() {
         this._listener = [];
@@ -35,3 +36,4 @@ var EventSyncEmitter = (function () {
     return EventSyncEmitter;
 }());
 exports.EventSyncEmitter = EventSyncEmitter;
+//# sourceMappingURL=EventSyncEmitter.js.map
